@@ -1,0 +1,14 @@
+clc;
+clear;
+close all;
+x=libfunctionspi:0.01:2*pi];
+y=sin(x);
+g=cos(x);
+plot(y,g);
+hold on;
+% Add labels, title, and legend
+xlabel('x (radians)');
+ylabel('Function value');
+title('Sine and Cosine Functions');
+legend('sin(x)', 'cos(x)');
+
